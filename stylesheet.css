@@ -1,0 +1,38 @@
+.text-primary {
+  color: lightgray;
+}
+
+.nav-item > .nav-link:hover {
+  background-color: darkgray;
+}
+
+body, div, p {
+  color: lightgray;
+}
+
+a {
+  color: #e6b55c;
+}
+a:hover {
+  color: #e6d1aa;
+}
+
+i {
+  padding: 0px 20px 5px 0px;
+  font-size: 35px;
+  color: lightgray;
+  text-decoration: none;
+}
+i:hover {
+  color: darkgray;
+}
+
+.introPic {
+  max-width: 100%;
+}
+
+.active {
+  background-color: darkgray;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

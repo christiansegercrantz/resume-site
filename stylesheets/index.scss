@@ -1,0 +1,32 @@
+@use 'variables' as var;
+@import '_bootstrap_overrides';
+
+body, div, p{
+  color: var.$my-text-color;;
+}
+
+a{
+  color: var.$my-link-color;
+  &:hover{
+    color: var.$my-link-color-hover;
+  }
+}
+
+i{
+  padding: 0px 20px 5px 0px;
+  font-size: 35px;
+  color: var.$my-text-color;
+  text-decoration: none;
+  &:hover{
+    color: darkgray
+  }
+}
+
+.introPic{
+  max-width: 100%;
+}
+
+.active{
+  background-color: darkgray;
+}
+

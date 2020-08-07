@@ -1,0 +1,11 @@
+.text-primary{
+  color: lightgray;
+}
+
+.nav-item{
+  &>.nav-link{
+    &:hover{
+      background-color: darkgray;
+    }
+  }
+}
